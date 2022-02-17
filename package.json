@@ -1,0 +1,52 @@
+{
+    "name": "@jon20111/essential-mui-tutorial",
+    "version": "1.0.0",
+    "author": "jon20111",
+    "license": "MIT",
+    "private": false,
+    "description": "A preconfigured MUI App for learning the component library",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jon20111/essential-mui-tutorial.git"
+      },
+    "main": "dist/index.js",
+    "keywords": [
+        "material-ui",
+        "mui",
+        "mui tutorial",
+        "appbar",
+        "theme",
+        "theme palette",
+        "mui react-router",
+        "drawer",
+        "form",
+        "mui form",
+        "package"
+    ],
+    "bugs": {
+        "url": "https://github.com/jon20111/essential-mui-tutorial/issues"
+    },
+    "homepage": "https://github.com/jon20111/essential-mui-tutorial#readme",
+    "scripts": {
+        "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.x",
+        "@emotion/styled": "^11.x",
+        "@mui/material": "^5.x",
+        "react": "17.x"
+    },
+    "peerDependencies": {
+        "@emotion/react": "^11.x",
+        "@emotion/styled": "^11.x",
+        "@mui/material": "^5.x",
+        "react": "17.x"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.14.5",
+        "@babel/core": "^7.14.5",
+        "@babel/preset-env": "^7.14.5",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-react": "^7.14.5"
+    }
+}
